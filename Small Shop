@@ -1,0 +1,105 @@
+using System;
+
+namespace DayOfWeek
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string product = Console.ReadLine();
+            string city = Console.ReadLine();
+            double quantity = double.Parse(Console.ReadLine());
+
+            if (product == "coffee")
+            {
+                if (city == "Sofia")
+                {
+                    double total = 0.50 * quantity;
+                    Console.WriteLine(total);
+                }
+                else if (city == "Plovdiv")
+                {
+                    double total = 0.40 * quantity;
+                    Console.WriteLine(total);
+                }
+                else
+                {
+                    double total = 0.45 * quantity;
+                    Console.WriteLine(total);
+                }
+            }
+            else if (product == "water")
+            {
+                if (city == "Sofia")
+                {
+                    double total = 0.80 * quantity;
+                    Console.WriteLine(total);
+                }
+                else if (city == "Plovdiv")
+                {
+                    double total = 0.70 * quantity;
+                    Console.WriteLine(total);
+                }
+                else
+                {
+                    double total = 0.70 * quantity;
+                    Console.WriteLine(total);
+                }
+            }
+            else if (product == "beer")
+            {
+                if (city == "Sofia")
+                {
+                    double total = 1.20 * quantity;
+                    Console.WriteLine(total);
+                }
+                else if (city == "Plovdiv")
+                {
+                    double total = 1.15 * quantity;
+                    Console.WriteLine(total);
+                }
+                else
+                {
+                    double total = 1.10 * quantity;
+                    Console.WriteLine(total);
+                }
+            }
+            else if (product == "sweets")
+            {
+                if (city == "Sofia")
+                {
+                    double total = 1.45 * quantity;
+                    Console.WriteLine(total);
+                }
+                else if (city == "Plovdiv")
+                {
+                    double total = 1.30 * quantity;
+                    Console.WriteLine(total);
+                }
+                else
+                {
+                    double total = 1.35 * quantity;
+                    Console.WriteLine(total);
+                }
+            }
+            else
+            {
+                if (city == "Sofia")
+                {
+                    double total = 1.60 * quantity;
+                    Console.WriteLine(total);
+                }
+                else if (city == "Plovdiv")
+                {
+                    double total = 1.50 * quantity;
+                    Console.WriteLine(total);
+                }
+                else
+                {
+                    double total = 1.55 * quantity;
+                    Console.WriteLine(total);
+                }
+            }
+        }
+    }
+}
